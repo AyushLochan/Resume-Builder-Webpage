@@ -76,7 +76,7 @@ export interface ExperienceItem {
 export interface SkillItem {
   id: string;
   name: string;
-  level: number; // 1-5
+  level: number;
   category?: string;
   yearsOfExperience?: number;
   certifications?: string[];
